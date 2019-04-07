@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.teocri.trainmonitor.EditActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextGetNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Train number"
+            android:inputType="number"
+            android:text=""
+            android:maxLength="6"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/textViewUpdateInterval"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="20sp"
+            android:text="update interval"
+            android:textSize="20sp"/>
+
+        <RadioGroup
+            android:id="@+id/radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="10sp"
+            android:paddingBottom="20sp">
+
+            <RadioButton
+                android:id="@+id/radioButton15s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="15000"
+                android:text="15 sec."
+                android:checked="true"/>
+
+            <RadioButton
+                android:id="@+id/radioButton30s"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="30000"
+                android:text="30 sec." />
+
+            <RadioButton
+                android:id="@+id/radioButton1m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="60000"
+                android:text="1 min." />
+
+            <RadioButton
+                android:id="@+id/radioButton2m"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textSize="15sp"
+                android:hint="120000"
+                android:text="2 min." />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/buttonAddTrain"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="addTrain"
+            android:text="ADD TRAIN" />
+
+    </LinearLayout>
+</RelativeLayout>

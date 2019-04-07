@@ -1,0 +1,7 @@
+#Thu Sep 21 15:25:01 CEST 2017
+base.0=C\:\\Users\\Giacomo\\AndroidStudioProjects\\TrainMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4cfc6c035ff306ed7abf7d9731f1083f4daba7c6
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=C\:\\Users\\Giacomo\\AndroidStudioProjects\\TrainMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_53081999cd184b2088a7343d78bf079dd3368c47\\classes.dex
+base.1=C\:\\Users\\Giacomo\\AndroidStudioProjects\\TrainMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_53081999cd184b2088a7343d78bf079dd3368c47
+file.0=C\:\\Users\\Giacomo\\AndroidStudioProjects\\TrainMonitor\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_4cfc6c035ff306ed7abf7d9731f1083f4daba7c6\\classes.dex

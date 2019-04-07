@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Giacomo\AndroidStudioProjects\TrainMonitor\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="c14e6eea31c2c0091c4ae6659c90beec4226101b">
+        <dex dex="C:\Users\Giacomo\AndroidStudioProjects\TrainMonitor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_4cfc6c035ff306ed7abf7d9731f1083f4daba7c6\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Giacomo\AndroidStudioProjects\TrainMonitor\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.0"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="C:\Users\Giacomo\AndroidStudioProjects\TrainMonitor\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_53081999cd184b2088a7343d78bf079dd3368c47\classes.dex" />
+    </item>
+
+</items>
